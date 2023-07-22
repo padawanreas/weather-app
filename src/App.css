@@ -42,3 +42,25 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0 10px;
+  align-items: center;
+}
+
+input::placeholder{color: white;}
+input{
+  border-radius: 20px;
+  background:transparent;
+border: none;
+  font-weight: 900;
+  color: white;
+  padding: 5px 10px;
+box-shadow: 2px 5px 8px 3px rgb(39, 39, 39);
+width: 250px;
+}
+.container{
+  text-align: center;
+  padding-top: 50px;
+}
