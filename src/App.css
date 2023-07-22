@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-
 }
 
 .App-logo {
@@ -30,18 +29,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .header{
   display: flex;
   justify-content: space-between;
@@ -59,4 +46,10 @@ border: none;
   padding: 5px 10px;
 box-shadow: 2px 5px 8px 3px rgb(39, 39, 39);
 width: 250px;
+}
+.container{
+  margin-top: 140px;
+  display: flex;
+justify-content: center;
+min-width: 600px;
 }
