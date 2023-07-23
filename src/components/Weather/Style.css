@@ -1,0 +1,26 @@
+.content{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    background: rgba(109, 16, 16, 0.1);
+    box-shadow: 2px 3px 5px 4px rgba(60, 60, 60, 0.557);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    color:white;
+  }
+  .welcome{color:rgb(46, 44, 44)}
+  .temperature {
+    font-size: 50px;
+    padding: 10px;
+  }
+  .main-weather{
+    display: flex;
+    text-align: center;
+
+  }
+  .main-weather div {margin-right: 30px;}
+  .main-weather h4{align-items: center; display: inline-flex;}
+  .main-weather p{text-align: center;}
+
+
